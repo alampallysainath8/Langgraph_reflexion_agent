@@ -1,0 +1,15 @@
+[project]
+name = "thumbnail-agent"
+version = "0.1.0"
+description = "YouTube Thumbnail Designer — Reflexion Agent (LangGraph assignment)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-openai>=0.3.0",
+    "langgraph>=0.2.0",
+    "pydantic>=2.0.0",
+    "openai>=1.30.0",
+    "tavily-python>=0.5.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]

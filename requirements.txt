@@ -1,0 +1,21 @@
+# Core LangChain / LangGraph stack
+langchain-openai>=0.3.0
+langgraph>=0.2.0
+
+# Pydantic for structured outputs
+pydantic>=2.0.0
+
+# OpenAI client (image generation + vision)
+openai>=1.30.0
+
+# HTTP client — used to download the DALL-E 3 image URL
+httpx>=0.27.0
+
+# Web search
+tavily-python>=0.5.0
+
+# Env-var loading
+python-dotenv>=1.0.0
+
+# Pretty terminal output
+rich>=13.0.0
